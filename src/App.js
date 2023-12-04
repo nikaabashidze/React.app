@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './resources/counter/counter'
+import Lesson1 from './resources/SkillWill/javascript/Lesson 1/app'
+import Lesson2 from './resources/SkillWill/javascript/Lesson 2/app'
+import Lesson3 from './resources/SkillWill/javascript/Lesson 3/app'
 
 function App() {
+
+ 
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div className="home">
+
+      <Counter/>
+      <Lesson1/>
+      <Lesson2/>
+      <Lesson3/>
     </div>
+
+
+
   );
+
 }
 
 export default App;
+
+
+
